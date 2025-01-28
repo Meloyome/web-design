@@ -1,2 +1,2 @@
 # Web design project page
-<a href="html_into/index">Intro to HTML</a>
+<a href="html_intro/index">Intro to HTML</a>
