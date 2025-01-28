@@ -1,2 +1,2 @@
 # Web design project page
-<a href="intro_to_html/index.html">Intro to HTML</a>
+<a href="C:\Users\Mel\Documents\GitHub\web-design\html_into">Intro to HTML </a>
