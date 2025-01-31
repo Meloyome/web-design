@@ -1,6 +1,6 @@
 body {
     background-image: url('../images/background.avif');
-    background-size: contain; /* Keeps image crisp */
+    background-size: contain; 
     background-position: center;
     
 }
@@ -42,4 +42,8 @@ h1 {
 
 h2, h3, h4, h5, h6 {
     font-size: 1.5rem;
+}
+
+body {
+    font-family: 'JetBrains Mono', monospace;
 }
