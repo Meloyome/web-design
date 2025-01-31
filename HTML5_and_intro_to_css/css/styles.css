@@ -1,0 +1,45 @@
+body {
+    background-image: url('../images/background.avif');
+    background-size: contain; /* Keeps image crisp */
+    background-position: center;
+    
+}
+#container {
+    background-color: rgb(241, 211, 215);
+    width: 1000px;
+    margin: 20px auto;
+    border: 10px solid rgb(205, 221, 228); 
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    font-size: 24px;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem; 
+}
+
+h2, h3, h4, h5, h6 {
+    font-size: 1.5rem;
+}
