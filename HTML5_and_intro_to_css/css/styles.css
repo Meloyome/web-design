@@ -52,3 +52,16 @@ body {
     width: 150px; 
     height: auto; 
 }
+
+#character-img {
+    width: 900px;
+    height: auto;
+    border: 8px solid rgb(211, 198, 175); 
+}
+
+#text-container {
+    background-color: #ffeaea; 
+    padding: 10px; 
+    display: inline-block;
+    border: 5px solid rgb(211, 198, 175);
+}
