@@ -53,7 +53,7 @@ body {
     height: auto; 
 }
 
-#character-img {
+.character-img {
     width: 900px;
     height: auto;
     border: 8px solid rgb(211, 198, 175); 
