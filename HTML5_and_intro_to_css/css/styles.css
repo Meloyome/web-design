@@ -59,7 +59,7 @@ body {
     border: 8px solid rgb(211, 198, 175); 
 }
 
-#text-container {
+.text-container {
     background-color: #ffeaea; 
     padding: 10px; 
     display: inline-block;
