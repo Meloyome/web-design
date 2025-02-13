@@ -1,0 +1,143 @@
+body {
+    background-image: url('../images/kawaii.jpg');
+    background-size: contain; 
+    background-position: center;
+    
+}
+#container2 {
+    background-color: rgb(248, 245, 228);
+    width: 65%;
+    margin: 20px auto;
+    border: 10px solid rgb(211, 198, 175); 
+    padding: 30px;
+}
+
+#container {
+    background-color: rgb(248, 245, 228);
+    width: 65%;
+    margin: 20px auto;
+    border: 10px solid rgb(211, 198, 175); 
+    padding: 30px;
+}
+.col {
+    width: 50%;
+    border: 2px solid rgb(211, 198, 175);
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffeaea;
+
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+nav {
+    text-align: center;
+    margin: 30px 0;
+    background-image: url('../images/kawaii.jpg');
+    padding: 5px;
+    border-radius: 20px;
+    border: 10px solid #d49e9e;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    color: rgb(148, 66, 93);
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0 70px;
+    width: 200px;
+    height: 40px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: rgb(148, 66, 93);
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem; 
+}
+
+h2, h3, h4, h5, h6 {
+    font-size: 1.5rem;
+}
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#hello-kitty {
+    width: 150px; 
+    height: auto; 
+}
+
+.character-img {
+    display: block; 
+    width: 100%; 
+    height: 0 auto; 
+    border: 8px solid rgb(211, 198, 175);
+    margin: auto;
+}
+.text-container {
+    background-color: #ffeaea; 
+    padding: 10px; 
+    display: inline-block;
+    border: 5px solid rgb(211, 198, 175);
+    border-radius: 20px;
+}
+
+#main1 {
+    display: flex; 
+}
+
+.character-img2 {
+    display: block; 
+    width: 70%; 
+    height: 0 auto; 
+    margin: auto;
+}
+
+.character-img3 {
+    display: block;
+    width: 85%;
+    margin: auto;
+    border: 8px solid rgb(211, 198, 175);
+
+}
+
+hr {
+    border: none; 
+    border-top: 5px dashed rgb(211, 198, 175);
+   
+}
+
+.character-img4 {
+    display: block; 
+    width: 90%; 
+    height: 0 auto; 
+    margin: auto;
+}
+
+.character-img5 {
+    width: 40%;  
+    margin: auto;
+
+}

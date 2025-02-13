@@ -4,6 +4,14 @@ body {
     background-position: center;
     
 }
+#container2 {
+    background-color: rgb(248, 245, 228);
+    width: 1000px;
+    margin: 20px auto;
+    border: 10px solid rgb(211, 198, 175); 
+    padding: 30px;
+}
+
 #container {
     background-color: rgb(248, 245, 228);
     width: 1000px;
