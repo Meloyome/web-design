@@ -12,6 +12,10 @@ img {
     width: 100%;
 }
 
+.character-img2{
+    border-radius: 10px;
+}
+
 .hello {
     width: 20%;
 }
@@ -23,6 +27,14 @@ img {
 hr {
     border: none;
     border-top: 5px dashed rgb(211, 198, 175);
+}
+
+.text-container {
+    padding: 10px;
+    display: inline-block;
+    border: 5px solid rgb(211, 198, 175);
+    background-color: rgba(233, 224, 207, 0.685);
+    border-radius: 20px;
 }
 
 
@@ -179,6 +191,8 @@ footer {
         height: auto;
         border: 8px solid rgb(211, 198, 175);
      }
+
+
 
 
 }
