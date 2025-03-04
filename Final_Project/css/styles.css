@@ -1,0 +1,663 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+    --primary-color: #adecd4;
+  --max-width: 1200px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+font-family: 'JetBrains Mono', monospace;
+  background-image: url('../images/bg.jpg');
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  z-index: 99;
+}
+
+.nav__content {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+}
+nav .logo a:hover {
+  color: rgb(94, 67, 80);
+}
+
+nav .checkbox {
+  display: none;
+}
+
+nav input {
+  display: none;
+}
+nav .checkbox i {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  transition: left 0.3s;
+}
+
+ul li a {
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  background-color: rgb(209, 185, 195);
+  color: rgb(0, 0, 0);
+}
+
+.section {
+ background-image: url('../images/bg.jpg');
+}
+
+.section__container {
+  min-height: 75vh;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  margin-top: 5%;
+}
+
+.section__container2 {
+    min-height: 50vh;
+    max-width: 1500px;
+    margin: auto;
+    padding: 50px;
+    display: block;
+    justify-content: center; /* Centers content horizontally */
+    gap: 1rem;
+    backdrop-filter: blur(1px);
+    margin-top: 5%;
+}
+
+.section__container3 {
+  display: block;
+  width: 100%;
+  max-width: 2000px;
+  margin: auto;
+  min-height: 75vh;
+  text-align: center;
+  background-color: #000000;
+  padding: 10%;
+}
+
+.section__container3 iframe, 
+.section__container3 video {
+  width: 50%; /* Makes the video take up the full width of the container */
+  height: auto; /* Ensures the height adjusts to maintain the aspect ratio */
+  max-height: 100%; /* Prevents the video from exceeding the container’s height */
+  display: block; /* Removes any space below the video */
+}
+
+.section__container3b {
+  display: block;             
+  width: 80%;                 
+  max-width: 2000px; 
+  margin: auto;                               
+  min-height: 75vh;            
+  text-align: left;
+  padding: 5%;    
+}
+
+.section__container3b h2 {
+  display: block;             
+  width: 100%;                 
+  max-width: 2000px; 
+  margin: auto;                                           
+  text-align: left;
+  padding: 10%;   
+  border: #000000 double 3px;
+  background-color: rgba(255, 255, 255, 0.432);
+}
+
+
+
+section video {
+    display: block;              
+    width: 50%;                 
+    height: auto;                
+    margin: 0 auto;     
+    border: double black 3px;           
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.header {  
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 20rem;
+    text-align: center;
+    margin: auto;
+    padding: 5%;
+    padding-bottom: 10%;
+}
+
+.headerb {  
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  margin: auto;
+  background-color: #000000;
+  padding: 3%;
+  color: white;
+}
+
+
+.header2 {
+    font-size: 4vw;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    padding-top: 10%;
+}
+
+.header3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 20rem;
+    text-align: left;
+    margin: auto;
+    padding-left: 5%;
+    padding-top: 10%;
+}
+
+.header3b {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 20rem;
+    text-align: left;
+    margin: auto;
+    padding-left: 15%;
+    padding-top: 3%;
+}
+
+.header3c {
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: center;
+    margin: auto;
+    padding: 6%;
+    width: 100%;
+    margin-top: 3%;
+}
+
+
+
+#header {
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(240, 239, 233);
+    backdrop-filter: blur(5px);
+    width: 77%;
+    margin: 0 auto;   
+    line-height: 1.5; 
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header img {
+    width: 10vw; /* Make image width responsive */
+    max-width: 50px; /* Prevent image from getting too large */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* Optional: space between image and text */
+}
+
+.header-content{
+    padding: 50px;
+
+}
+
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.title span {
+  font-weight: 600;
+}
+
+.description {
+  line-height: 1.5rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+}
+
+.image {
+  display: grid;
+  place-items: center;
+}
+
+.image img {
+  width: min(25rem, 90%);
+}
+
+
+.col {
+    height: 1000px;
+}
+
+.col:nth-child(1) p {
+    padding-left: 15%;  /* Adds padding on all sides of the text */
+    padding-right: 20%;
+    padding-top: 3% ;
+    padding-bottom: 5%;
+}
+
+.col:nth-child(1) { /* Targets the second column */
+    padding: 1px;
+    background-color: rgba(146, 139, 106, 0.185);    
+}
+
+
+.col:nth-child(2) p { /* Targets the second column */
+    padding-left: 5%;  /* Adds padding on all sides of the text */
+    padding-right: 20%;
+    padding-bottom: 3%;
+}
+
+hr {
+     border: none; /* Remove default border */
+     width: 90%;
+     margin: auto;
+     border-top: solid;
+
+ }
+
+
+
+ .multi_col{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    max-width: 1000px;
+    margin: auto;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 0px;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: 40% 60%;
+    transition: transform 0.3s ease-in-out;
+ }
+
+ .multi_col:hover {
+    transform: translateY(-20px); /* Moves it up by 10px */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for depth */
+}
+
+
+
+ .character-img {
+    width: 70%; /* Adjust size */
+    border-radius: 50%;
+    max-width: 300px; /* Prevents it from getting too large */
+    display: block; /* Removes any unwanted spacing */
+    margin: 0 auto; /* Forces horizontal centering */
+    padding-top: 5%;
+}
+
+#jasper {
+    width: 50%;
+    height: auto;
+    max-width: 300px; 
+    display: block; 
+    margin: 0 auto;
+}
+
+.jasper-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates 3 equal-width columns */
+    gap: 10px; /* Adds space between images */
+    justify-content: center; /* Centers images horizontally */
+    align-items: center; /* Centers images vertically (if you have different heights) */
+}
+
+.jasper-header {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 20rem;
+    text-align: center;
+    margin: auto;
+    padding: 3%;
+}
+
+/* Card stuffff */
+
+.card-container {
+  display: flex; /* Enables flexbox for horizontal layout */
+  justify-content: center; /* Centers the cards */
+  gap: 20px; /* Adds space between the cards */
+  flex-wrap: wrap; /* Allows the cards to wrap to the next line */
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+.card {
+  width: 30%; 
+  text-align: center;
+  border: 2px solid black;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3); 
+}
+
+.card img {
+  width: 100%; 
+  height: auto;
+  display: block;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-image img {
+  width: 100%; 
+  height: auto;
+  display: block;
+}
+
+.card-text {
+  margin-top: 10px; 
+  font-size: 16px;
+  color: #333;
+}
+
+/* cardb */
+
+.cardb-container {
+  display: flex; /* Enables flexbox for horizontal layout */
+  justify-content: center; /* Centers the cards */
+  gap: 20px; /* Adds space between the cards */
+  flex-wrap: wrap; /* Allows the cards to wrap to the next line */
+  padding: 20px;
+  padding-bottom: 20%;
+}
+
+.cardb {
+  margin-top: 10%;
+  width: 30%; 
+  text-align: center;
+  padding: 15px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.cardb img:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 10px 10px rgba(255, 255, 255, 0.3); 
+}
+
+.cardb img {
+  width: 100%; 
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardb-image {
+  width: 100%;
+}
+
+.cardb-image img {
+  width: 100%; 
+  height: auto;
+  display: block;
+}
+
+.cardb-text {
+  margin-top: 10px; 
+  font-size: 16px;
+  color: #333;
+}
+
+
+
+/* blog */
+
+.header-blog {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding-top: 9%; /* 10% top padding */
+  text-align: center;
+  font-weight: 700;
+  border-bottom: #000000 3px solid;
+}
+
+
+.header-title {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.header-description {
+  font-size: 1.2em;
+}
+
+/* Main Content Styles */
+.mainb {
+  padding: 3% 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.blog-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2em;
+}
+
+.blog-post {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.post-meta {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.post-image {
+    width: 100%; /* Set width to 80% of its container */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-excerpt {
+  font-size: 1.1em;
+  margin-bottom: 1.5em;
+}
+
+
+
+
+@media (width < 800px) {
+    nav .checkbox {
+      display: block;
+    }
+  
+    ul {
+      position: absolute;
+      width: 100%;
+      height: calc(100vh - 85px);
+      left: -100%;
+      top: 85px;
+      background-color: rgba(49, 49, 49, 0.466);
+      backdrop-filter: blur(10px);
+      flex-direction: column;
+      justify-content: center;
+      gap: 3rem;
+    }
+  
+    nav #check:checked ~ ul {
+      left: 0;
+    }
+  
+    ul li a {
+      font-size: 1.25rem;
+    }
+
+  
+    .section__container {
+      padding: 10rem 1rem 5rem 1rem;
+      text-align: center;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .image {
+      grid-area: 1/1/2/2;
+    }
+  
+    .action__btns {
+      margin: auto;
+    }
+
+  #header {
+    width: 100%;
+    font-size: 30px;
+}
+
+ #header img{
+    width: 5vw;
+ }
+
+ .header3c {
+  font-size: 2rem;  
+  padding-top: 20%;  
+  padding-bottom: 10%;
+}
+
+.card {
+  width: 45%; 
+}
+
+.cardb {
+  width: 45%; 
+}
+
+
+.section__container3 iframe, 
+.section__container3 video {
+  width: 100%; 
+  height: auto; /* Ensures the height adjusts to maintain the aspect ratio */
+  max-height: 100%; /* Prevents the video from exceeding the container’s height */
+  margin-top: 20%;
+
+}
+
+
+
+}
+
+@media (max-width: 600px) {
+    #header {
+        padding: 5vw; /* Increase padding to expand background */
+        width: 0 auto; /* Allow width to adjust to content */
+        margin: 0 auto;  /* Center it */
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap; /* Prevent text from wrapping */
+    }
+
+    #header h1 {
+        display: none;
+    }
+
+    .multi_col{
+        grid-template-columns: 1fr;
+    }
+
+     #header img{
+        width: 20vw;
+        margin: auto;
+     }
+}
+
+@media (max-width: 480px) {
+  .section__container3 {
+    padding: 5%; /* Reduce padding on mobile devices */
+    min-height: 30vh; /* Adjust the min-height for smaller screens */
+  }
+
+  .card {
+    width: 100%; /* Cards will take up full width, stacking vertically */
+  }
+
+  .cardb {
+    width: 100%; /* Cards will take up full width, stacking vertically */
+  }
+}
