@@ -521,6 +521,10 @@ hr {
   margin-bottom: 10px;
 }
 
+html {
+  cursor: url('../images/cursor.cur'), default;
+}
+
 .post-meta {
   font-size: 0.9em;
   color: #666;
