@@ -635,7 +635,6 @@ html {
 @media (max-width: 600px) {
     #header {
         padding: 5vw; /* Increase padding to expand background */
-        width: 0 auto; /* Allow width to adjust to content */
         margin: 0 auto;  /* Center it */
         justify-content: center;
         align-items: center;
