@@ -4,97 +4,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
-    rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <title>Document</title>
+    <title>Music Page - Mel.net</title>
 </head>
-<nav>
-    <div class="nav__content">
-      <div class="logo"><a href="#">Mel.net</a></div>
-      <label for="check" class="checkbox">
-        <i class="ri-menu-line"></i>
-      </label>
-      <input type="checkbox" name="check" id="check" />
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="music.html">Music</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="blog.html">Blog</a></li>
-      </ul>
-    </div>
-  </nav>
 
 <body>
-    <header></header>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav__content">
+            <div class="logo"><a href="#">Mel.net</a></div>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+            </label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <main>
-    <section class="section">
-      <h1 class="header3c">Die For You - Joji</h1>
-        <div class="section__container3">
-            
-            <div>
-                <video width="640" height="480" controlls poster="images/thumbnail.jpg" autoplay controls>
-                    <source src="images/Joji.mp4" type="video/mp4">
-                    <source src="images/Joji.ogg" type="video/ogg">
-                </video>
+        <section class="section">
+            <h1 class="header3c">Die For You - Joji</h1>
+            <div class="section__container3">
+                <div>
+                    <video width="640" height="480" controls poster="images/thumbnail.jpg" autoplay>
+                        <source src="images/Joji.mp4" type="video/mp4">
+                        <source src="images/Joji.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <div class="section__container3b">
+                <h2>
+                    Welcome to my music page—a space where I share some of my favorite tracks, albums, and artists. Music has always been a big part of my life, shaping moods, memories, and creativity in ways nothing else can. 
+                    The songs here are ones that have stuck with me, whether for their lyrics, sound, or the way they make me feel. 
+                    I’m drawn to indie tunes, dreamy lo-fi beats, and anything with a rhythm that lingers long after the music stops. 
+                    Some tracks are perfect for late-night drives, others for getting lost in thought, and a few just make the world feel a little more cinematic.
+
+                    This page is a collection of sounds that inspire me, and I hope you find something here that resonates with you too. 
+                    Whether you’re looking for something new to add to your playlist or just curious about what I’ve been listening to, take your time and explore.
+                </h2>
+            </div>
+        </section>
+
+        <!-- Music Cards -->
+        <div class="card-container">
+            <div class="card">
+                <a href="https://loscampesinos.bandcamp.com/album/no-blues">
+                    <img src="images/loscampalbum.jpg" alt="No Blues Album Cover">
+                </a>
+                <div class="card-content">
+                    <h1>No Blues</h1>
+                    <p>
+                        This is my all-time favorite Los Campesinos album. I feel like it's one of those albums where you have to get into the band before you can fully enjoy it. 
+                        Not to brag, but I have a signed copy, and it is literally my most prized possession lol.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="https://tvgirl.bandcamp.com/album/who-really-cares">
+                    <img src="images/tvgirl.jpg" alt="Who Really Cares Album Cover">
+                </a>
+                <div class="card-content">
+                    <h1>Who Really Cares</h1>
+                    <p>
+                        This album is by TV Girl, and every song on it is absolutely perfect. I would recommend it to anyone. 
+                        My favorite track from the album is "For You."
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="https://postalservicemusic.net/">
+                    <img src="images/postalservice.jpeg" alt="Give Up Album Cover">
+                </a>
+                <div class="card-content">
+                    <h1>Give Up</h1>
+                    <p>
+                        I was contemplating putting a 'Death Cab For Cutie' album here because the lead singers of each band are the same, 
+                        but this whole album is perfect like the other two. My favorite song from the album is "Sleep In."
+                    </p>
+                </div>
             </div>
         </div>
-
-        <div class="section__container3b">
-           <h2>Welcome to my music page—a space where I share some of my favorite tracks, albums, and artists. Music has always been a big part of my life, shaping moods, memories, and creativity in ways nothing else can. The songs here are ones that have stuck with me, whether for their lyrics, sound, or the way they make me feel. I’m drawn to indie tunes, dreamy lo-fi beats, and anything with a rhythm that lingers long after the music stops. Some tracks are perfect for late-night drives, others for getting lost in thought, and a few just make the world feel a little more cinematic.
-
-            This page is a collection of sounds that inspire me, and I hope you find something here that resonates with you too. Whether you’re looking for something new to add to your playlist or just curious about what I’ve been listening to, take your time and explore.</h2>
-
-         </div>
-       </section>
-       <div class="card-container">
-        <div class="card">
-          <a href="https://loscampesinos.bandcamp.com/album/no-blues">
-            <img src="images/loscampalbum.jpg" alt="User Image">
-          </a>
-          
-          <div class="card-content">
-            <h1>No Blues</h1>
-            <p>This is my all time favorite Los Campesinos album. I feel like its one of those albums where you have to get into the band before you can fully enjoy it. Not to brag but I have a signed copy and it is literaly my most prized possession lol.</p>
-          </div>
-        </div>
-      
-        <div class="card">
-          <a href="https://tvgirl.bandcamp.com/album/who-really-cares">
-            <img src="images/tvgirl.jpg" alt="User Image">
-          </a>
-          
-          <div class="card-content">
-            <h1>Who Really Cares</h1>
-            <p>This album is by TV girl, every song on this album is absolutly perfect, and I would reccomend it to anyone. My favorite track from the album is "For You."
-            </p>
-           </div>
-        </div>
-        
-        <div class="card">
-          <a href="https://postalservicemusic.net/">
-            <img src="images/postalservice.jpeg" alt="User Image">
-          </a>
-          
-          <div class="card-content">
-            <h1>Give Up</h1>
-            <p>I was contemplating putting a 'Death Cab For Cutie' album here because the lead singers of each band are the same, but this whole album is perfect like the other two. My favorite song from the album is 'Sleep In.' </p>
-          </div>
-        </div>
-      </div>
-        </div>
-
-        
-         
     </main>
-    <footer>
-      &copy; 2025 mel.net project page
-    </footer>
 
-    
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 mel.net project page
+    </footer>
 </body>
 </html>
