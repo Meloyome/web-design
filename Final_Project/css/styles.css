@@ -466,19 +466,20 @@ hr {
   padding: 15px;
   box-sizing: border-box;
   transition: transform 0.3s ease, box-shadow 0.3s ease; 
-  background-color: #000000;
-  color: white;
+  border: #000000 double 5px;
+  color: black;
+  background-color: #fafafa8f;
 }
 
 .cardb img:hover {
   transform: scale(1.05); 
-  box-shadow: 0 10px 10px rgba(255, 255, 255, 0.3); 
 }
 
 .cardb img {
   width: 100%; 
   height: auto;
   display: block;
+  padding-bottom: 5%;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
