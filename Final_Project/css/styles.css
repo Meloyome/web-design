@@ -244,7 +244,7 @@ section video {
     width: 77%;
     margin: 0 auto;   
     line-height: 1.5; 
-    border: 10px solid rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
     border-radius: 100px;
     color: rgb(0, 0, 0);
     display: flex;
@@ -352,7 +352,7 @@ hr {
     grid-template-columns: repeat(2, 2fr);
     max-width: 1000px;
     margin: auto;
-    border: 10px solid rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
     border-radius: 50px;
     background-color: rgb(255, 255, 255);
     grid-template-columns: 40% 60%;
@@ -721,7 +721,7 @@ html {
     min-height: 50vh;
     max-width: 3000px;
     margin: auto;
-    padding: 0px;
+    padding: 3%;
     display: block;
     justify-content: center; /* Centers content horizontally */
     gap: 0;
