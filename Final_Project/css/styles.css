@@ -245,7 +245,7 @@ section video {
     margin: 0 auto;   
     line-height: 1.5; 
     border: 10px solid rgb(0, 0, 0);
-    border-radius: 0px;
+    border-radius: 100px;
     color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
@@ -290,9 +290,31 @@ section video {
   width: min(25rem, 90%);
 }
 
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between items */
+  padding-left: 15%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.list-item {
+  position: relative;
+  padding-left: 15px; /* Space for bullet */
+}
+
+.list-item::before {
+  content: "•"; /* Custom bullet point */
+  position: absolute;
+  left: 0;
+  color: black;
+  font-size: 1.2em;
+}
+
 
 .col {
-    height: 1000px;
+    height: auto;
 }
 
 .col:nth-child(1) p {
@@ -301,6 +323,7 @@ section video {
     padding-top: 3% ;
     padding-bottom: 5%;
 }
+
 
 .col:nth-child(1) { /* Targets the second column */
     padding: 1px;
@@ -330,7 +353,7 @@ hr {
     max-width: 1000px;
     margin: auto;
     border: 10px solid rgb(0, 0, 0);
-    border-radius: 0px;
+    border-radius: 50px;
     background-color: rgb(255, 255, 255);
     grid-template-columns: 40% 60%;
     transition: transform 0.3s ease-in-out;
@@ -443,6 +466,8 @@ hr {
   padding: 15px;
   box-sizing: border-box;
   transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  background-color: #000000;
+  color: white;
 }
 
 .cardb img:hover {
@@ -550,6 +575,22 @@ html {
 
 
 @media (width < 800px) {
+
+  .mainb {
+    padding: 3% 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .blog-post {
+    padding: 15px;
+  }
+
+  .post-excerpt {
+    font-size: 15px;
+    margin-bottom: 1.5em;
+  }
+
     nav .checkbox {
       display: block;
     }
@@ -623,7 +664,16 @@ html {
 
 }
 
-
+.section__container3b {
+  display: block;             
+  width: 90%;                 
+  max-width: 2000px; 
+  padding-top: 5%;  
+  padding-left: 1%;
+  padding-right: 1%;
+  font-size: 15px;  
+  padding-bottom: 5%;
+}
 
 }
 
@@ -648,6 +698,8 @@ html {
         width: 20vw;
         margin: auto;
      }
+
+  
 }
 
 @media (max-width: 480px) {
@@ -663,4 +715,32 @@ html {
   .cardb {
     width: 100%; /* Cards will take up full width, stacking vertically */
   }
+
+  .section__container2 {
+    min-height: 50vh;
+    max-width: 3000px;
+    margin: auto;
+    padding: 0px;
+    display: block;
+    justify-content: center; /* Centers content horizontally */
+    gap: 0;
+    backdrop-filter: blur(1px);
+    margin-top: 10%;
+}
+
+.section__container3b {
+  display: block;             
+  width: 90%;                 
+  max-width: 2000px; 
+  padding-top: 5%;  
+  padding-left: 0%;
+  padding-right: 0%;
+  font-size: 10px;  
+}
+
+.post-excerpt {
+  font-size: 10px;
+  margin-bottom: 1.5em;
+}
+
 }
