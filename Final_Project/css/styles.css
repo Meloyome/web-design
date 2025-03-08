@@ -575,7 +575,7 @@ html {
 
 
 
-@media (width < 800px) {
+@media (width < 850px) {
 
   .mainb {
     padding: 3% 5%;
@@ -628,9 +628,6 @@ html {
       grid-area: 1/1/2/2;
     }
   
-    .action__btns {
-      margin: auto;
-    }
 
   #header {
     width: 100%;
@@ -662,7 +659,6 @@ html {
   height: auto; /* Ensures the height adjusts to maintain the aspect ratio */
   max-height: 100%; /* Prevents the video from exceeding the container’s height */
   margin-top: 20%;
-
 }
 
 .section__container3b {
@@ -742,6 +738,14 @@ html {
 .post-excerpt {
   font-size: 10px;
   margin-bottom: 1.5em;
+}
+
+.section__container3 iframe, 
+.section__container3 video {
+  width: 100%; 
+  height: auto; /* Ensures the height adjusts to maintain the aspect ratio */
+  max-height: 100%; /* Prevents the video from exceeding the container’s height */
+  margin-top: 5%;
 }
 
 }
